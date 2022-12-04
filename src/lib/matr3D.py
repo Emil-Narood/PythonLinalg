@@ -1,6 +1,9 @@
 #https://pastebin.com/8bBywF96
 
 
+
+
+
 def mult_matr_sc(matr, sc):
     i = 0
     j = 0
