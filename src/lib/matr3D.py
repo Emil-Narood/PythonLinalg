@@ -17,22 +17,22 @@ def mult_matr_matr(matr1, matr2):
     j = 0
     for i in range (len(matr1)):
         for j in range(len(matr1[i])):
-            matr[i][j] = matr1[i][j] * matr2[i][j]
-    return matr
+            matr1[i][j] = matr1[i][j] * matr2[i][j]
+    return matr1
 
 
 def add_matr_matr(matr1, matr2):
     for i in range(len(matr1)):
         for j in range(len(matr1[i])):
-            matr[i][j] = matr1[i][j] + matr2[i][j]
-    return matr
+            matr1[i][j] = matr1[i][j] + matr2[i][j]
+    return matr1
 
 
 def subtr_matr_matr(matr1, matr2):
-    for i in range(len(arr1)):
-        for j in range(len(arr1[i])):
-            matr[i][j] = matr1[i][j] - matr2[i][j]
-    return matr
+    for i in range(len(matr1)):
+        for j in range(len(matr1[i])):
+            matr1[i][j] = matr1[i][j] - matr2[i][j]
+    return matr1
 
 def matr3DDet(matr):
     Det = matr[0][0] * matr[1][1] * matr[2][2] + \
